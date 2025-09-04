@@ -1,0 +1,37 @@
+{
+  "name": "colorful-button",
+  "version": "1.0.0",
+  "description": "A reusable React button that changes colors on click",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcblakeb/package-example.git"
+  },
+  "keywords": [
+    "react",
+    "button",
+    "component",
+    "ui"
+  ],
+  "author": "Blake B",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "rollup": "^4.50.0",
+    "rollup-plugin-dts": "^6.2.3",
+    "typescript": "^5.9.2"
+  }
+}
